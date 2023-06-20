@@ -62,9 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Fetch data from Leaderboard API
-- function to store data in LeaderBoard API
-- function to refresh the data by calling the the API to fetch data again
+- Making the design of the App more elegant
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
