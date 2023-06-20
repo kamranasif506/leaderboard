@@ -6,6 +6,55 @@
     <title>Wbpack Exercise</title>
 </head>
 <body>
-    <h1>Hello webpack!</h1>
+    <header class="container-fluid mt-5">
+        <h1 class="d-flex justify-content-center">LeaderBoard</h1>
+    </header>
+    <section id="body" class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-6"><h2>Receent Scores</h2></div>
+                        <div class="col-6 d-flex justify-content-end"><button class="btn btn-outline-dark">Refresh</button></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <table class="table table-striped border border-5 border-black" id="table_content"></table>     
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-6 ml-1">
+                    <div class="row justify-content-center">
+                        <div class="col-6"><h2 class="d-flex justify-content-start">Add your Score.</h2></div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12">
+                            <form action="" class="form" id="form">
+                                <div class="form-group row justify-content-center">
+                                    <div class="col-6">
+                                        <input name="name" class="input border border-2 border-black d-flex right_align w-100" placeholder="Your Name" type="text">
+                                    </div>  
+                                </div>
+                                <div class="form-group mt-3 row justify-content-center">
+                                    <div class="col-6">
+                                        <input name="score" class="input border border-2 border-black d-flex right_align w-100" placeholder="Your score" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3 row justify-content-center">
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-outline-dark btn-submit d-flex right_align ">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    
+    </section>
+    
 </body>
 </html>

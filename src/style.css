@@ -1,3 +1,6 @@
 body {
-  background-color: bisque;
+  background-color: white;
+}
+.right_align {
+  margin-left: auto;
 }

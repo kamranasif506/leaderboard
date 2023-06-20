@@ -1,13 +1,12 @@
-import _ from 'lodash';
+import 'bootstrap/dist/css/bootstrap.css';
 import './style.css';
+import displayScore from './modules/displayScore';
 
-function component() {
-  const element = document.createElement('div');
-
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-  return element;
-}
-
-document.body.appendChild(component());
+const list = [
+  {"name":"Name","score":100},
+  {"name":"Name","score":90},
+  {"name":"Name","score":70},
+  {"name":"Name","score":50},
+  {"name":"Name","score":10},
+];
+displayScore(list);
