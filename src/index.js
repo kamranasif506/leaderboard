@@ -17,9 +17,9 @@ formId.addEventListener('submit', async (e) => {
   const data = { user: userName, score };
   await storeScores(data, baseUrl, gameId);
   const alert = document.getElementById('alert-message');
-  alert.innerHTML='Data saved in the API';
-  alert.style.display='block';
- 
+  alert.innerHTML = 'Data saved in the API';
+  alert.style.display = 'block';
+
   document.getElementById('user').value = '';
   document.getElementById('score').value = '';
   setTimeout(() => {
@@ -30,4 +30,3 @@ formId.addEventListener('submit', async (e) => {
 refresh.addEventListener('click', () => {
   displayScore(baseUrl, gameId);
 });
-
