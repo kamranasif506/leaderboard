@@ -62,7 +62,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- Structure for the Leaderboard Project.
+- Fetch data from Leaderboard API
+- function to store data in LeaderBoard API
+- function to refresh the data by calling the the API to fetch data again
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
