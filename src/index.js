@@ -14,7 +14,7 @@ formId.addEventListener('submit', async (e) => {
   const userName = document.getElementById('user').value;
   const score = document.getElementById('score').value;
 
-  const data = { user: userName, score: score };
+  const data = { user: userName, score };
   await storeScores(data, baseUrl, gameId);
 
   displayScore(baseUrl, gameId);
