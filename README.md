@@ -6,7 +6,7 @@
   <img src="logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>WebPacks boilerplate</b></h3>
+  <h3><b>LeaderBoard</b></h3>
 
 </div>
 
@@ -36,7 +36,7 @@
 
 # 📖 Setup WebPack <a name="about-project"></a>
 
-> A simple yet powerful webpack boilerplate.
+> The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -62,7 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- configured Webpacks
+- Structure for the Leaderboard Project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,8 +141,8 @@ You can deploy this project using github pages.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] Add Design animations
-- [ ] Enhance the styling for all screens.
+- [ ] Display Leaderboard data from leaderboard API
+- [ ] Save new data to leaderboard API
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
